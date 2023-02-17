@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Sign-In</title>
+    <link href="./favicon.ico" rel="shortcut icon">
+    <link href="../node_modules/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <style>
+        section{
+            height: 900px;
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+            
+        }
+        form{
+            height: 500px;
+            width: 410px;
+            padding: 30px;
+            border: 1px solid grey;
+            padding-bottom: 20px;
+            
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+            padding-bottom: 20px;
+            font-family: cursive;
+        }
+        a{
+            text-decoration: none;
+        }
+        .log{
+            display: flex;
+            justify-content: center;
+            color: blue;
+            font-size: 20px;
+        }
+        .button{
+            font-size: 20px;
+        }
+        .miss{
+            display: flex;
+            justify-content: center;
+            font-size: 15px;
+            color: blue;
+        }
+        .bottom{
+            display: flex;
+            border: 1px solid grey;
+            justify-content: center;
+            font-size: 20px;
+            width: 410px;
+        }
+        .app{
+            display: flex;
+            justify-content: center;
+            font-size: 21px;
+            text-align: center;
+            padding-top: 20px;
+            width: 410px;
+        }
+        .or{
+            display: flex;
+            justify-content: center;
+        }
+        .text{
+            margin-top: -25px;
+            padding: 10px;
+            color: gray;
+            font-size: 20px;
+            padding-left: 40px;
+            padding-right: 50px;
+        }
+        .left-bar, .right-bar{
+            border-top: 1px solid gray;
+            width: 100px;
+        }
+        .picture{
+            padding-left: 400px;
+
+        }
+        .footer{
+                height: 250px;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                color: gray;
+                padding-left: 60px;
+                padding-right: 60px;
+
+            }
+            footer span{
+                margin-right: 20px;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+            }
+            .row-1 {
+                margin-bottom: 20px;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+            
+            }
+            .row-2 {
+                margin-bottom: 20px;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+
+            }
+            
+        
+    </style>
+</head>
+<body class="container-fluid">
+        <section>
+            <div class="picture">
+                <img src="./image.jpg/insta-pic.jpg">
+        
+            </div>
+            <div>
+                <form  class="mb-4" >
+                    <h1><b>Instagram</b></h1>
+                    <div class="mb-4 p-3">
+                        <input type="text" placeholder="Phonenumber, username, or email"     class="form-control">
+        
+                        <div class=" password p-3 w-100">
+                            <input type="password"  placeholder="password"   class="form-control">
+                        </div>
+                    </div>
+                    <div class=" button mb-4">
+                        <button class="btn btn-primary w-100">Log in</button>
+                    </div>
+                    <div class="or w-100">
+                        <div class="left-bar"></div>
+                        <span class="text">or</span>
+                        <div class="right-bar"></div>
+        
+                    </div>
+                    <div class=" log mb-4">
+                        <a href="#"><p class="bi bi-facebook"><b>Login with Facebook</b></p></a>
+                    </div>
+                    <div class=" miss mb-4">
+                        <a href="#">Forgot Password?</a>
+        
+                    </div>
+                        
+        
+                </form>
+                <div class="bottom">
+                    <div class="mt-3">
+                        <P>Don't have an account? <a href="#" >Sign up</a>  </P>
+                    </div>
+                </div>
+                <div class="app">
+                    <p> Get the app</p>
+                    
+                </div>
+                <div>
+                    <a href="#"><img src="./image.jpg/insta-signin.jpg"></a>
+                </div>
+            </div>
+        
+        </section>
+    <footer>
+        <div class="row-1">
+            <span>Meta</span>
+                <span>About</span>
+                <span>Blog</span>
+                <span>Jobs</span>
+                <span>Help</span>
+                <span>API</span>
+                <span>Privacy</span>
+                <span>Terms</span>
+                <span>Top Accounts</span>
+                <span>Hashtags</span>
+                <span> Locations</span>
+                <span> Instagram Lite</span>
+                <span>Contact Uploading & Non-Users</span>
+        </div>
+        <div class="row-2">
+            <span>English(US)</span> <span class="bi bi-chevron-down"></span>
+            <span> &copy; 2022 Instagram from Meta </span>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,25 @@
+$shadow : 2px 2px 3px gray;
+$padding : 20px;
+$border : 3px dotted black;
+$size:20px ;
+$weight:bold;
+$color: green;
+
+.container{
+    border : $border;
+    box-shadow: $shadow;
+    padding: $padding;
+    h2{
+        color: red;
+        padding: $padding;
+        text-shadow: $shadow;
+
+    }
+    p{
+        text-shadow: $shadow;
+        font-size: $size;
+        font-weight:bold;
+        color: green;
+
+    }
+}

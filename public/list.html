@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en-in">
+    <head>
+        <title>Ordered & Unorderd List</title>
+        <link rel="shortcut icon " href="./favicon.ico">
+        <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+        <style>
+            header{
+                height: 80px;
+                background-color: blue;
+                display: flex;
+                justify-content: space-around;
+                padding: 10px;
+            }
+            .title{
+                padding: 1px;
+            }
+            .name{
+                color: white;
+                font-size: 20px;
+                font-style: italic;
+                padding: 1px;
+            }
+            .subname{
+                color: white;
+                font-size: 20px;
+                padding: 1px;
+                font-style: italic;
+            }
+            .plus{
+                color: yellow;
+                font-size: 20px;
+                font-style: italic;
+            }
+            .submit{
+                width: 150px;
+                height: 50px;
+                color: blue;
+                font-size: 30px;
+            }
+            .cart{
+                color: white;
+                font-size: 30px;
+            }
+            .sell{
+                color:white;
+                font-size: 30px;
+            }
+            .text{
+                width: 500px;
+            }
+           
+            .more{
+                width: 80px;
+                height: 50px;
+                background-color: blue;
+                color: white;
+                font-size: 20px;
+                
+
+            }
+            a{
+                text-decoration: none;
+                color: white;
+            }
+           
+            section 
+            {
+                height: 700px;
+                
+            }
+
+            footer
+            {
+                display: grid;
+                grid-template-columns: 6fr 6fr;
+                height: 250px;
+                padding: 10px;
+                background-color: black;
+                color: white;
+                font-size: 15px;
+            }
+            .left-footer{
+
+                display: grid;
+                grid-template-columns: 3fr 3fr 3fr 3fr;
+                margin-bottom: 7px;
+            }
+            .right-footer
+            {
+                display: grid;
+                grid-template-columns: 6fr 6fr;
+                border-left: 2px solid gray;
+                padding-left: 20px;
+            }
+            .footer-title{
+                color: greenyellow;
+                padding-bottom: 10px;
+            }
+            .back
+            {
+                background-color: gray;
+                color: white;
+                padding: 10px;
+                font-size: 20px;
+                text-align: center;
+            }
+            .footer-title~div{
+                padding-bottom: 10px;
+            }
+            .footer-titles{
+                color: greenyellow;
+                padding-bottom: 10px;
+            }
+            section span{
+                display: flex;
+                justify-content: space-between;
+            }
+            .fig span{
+                display: flex;
+                background-color: white;
+                color: black;
+                justify-content: space-between;
+            }
+        </style>
+    </head>
+    <body class="container-fluid">
+        <header>
+            <div class="title">
+                <div class="name"><h2>Flipkart</h2></div> 
+                <span class="subname">Explore</span>
+                <span class="plus">Plus</span>
+            </div>
+            <div class=" text input-group ">
+                <input type="text" placeholder="search for products,brands and more" class="form-control">
+                <span class="bi bi-search  primary input-group-text "></span>
+            </div>
+
+            <div class="button">
+                <button class="submit">Login</button>
+            </div>
+
+            <div class="sell"><a href="#">Become a Seller</a> </div>
+
+            <div><a href="#">
+                <select class="more">
+                    <option class="bi bi-chevron-down">More</option>
+                    <option class="bi bi-bell-fill">Notification Preferences</option>
+                    <option class="bi bi-bell">24x7 Customer Service</option>  
+                    <option class="bi bi-graph-up-arrow">Advertise</option>
+                    <option class=" bi bi-download">Download App</option>
+                </select>
+            </a>
+            </div>
+
+            <div class=" cart bi bi-cart "><a href="#">Cart </a>  </div>
+            
+        </header>
+        <section>
+           
+
+        </section>
+        <footer>
+            <div class="left-footer">
+                <div>
+                    <div class="footer-title">ABOUT</div>
+                    <div>Contact Us</div>
+                    <div>About Us</div>
+                    <div>Career</div>
+                    <div>Flipkart Stories</div>
+                    <div>Press</div>
+                    <div>Flipkart Wholesale</div>
+                    <div>Corporate Information</div>
+                </div>
+                <div>
+                    <div class="footer-title">HELP</div>
+                    <div>Payments</div>
+                        <div>Shipping</div>
+                        <div>Cancellation & Returns</div>
+                        <div>FAQ</div>
+                        <div>Report Infringement</div>
+                </div>
+                <div>
+                    <div class="footer-title">POLICY</div>
+                    <div>Return Policy</div>
+                        <div>Terms Of Use</div>
+                        <div>Security</div>
+                        <div>Privacy</div>
+                        <div>Sitemap</div>
+                        <div>EPR Compliance</div>             
+                </div>
+                <div>
+                    <div class="footer-title">SOCIAL</div>
+                    <div>Facebook</div>
+                        <div>Twitter</div>
+                        <div>You tube</div>
+
+                </div>
+            </div>
+            <div class="right-footer">
+                <div>
+                    <div class="footer-titles">Mail Us:</div>
+                    <div>Flipkart Internet Private Limited</div>
+                    <div>Buildings Alyssa, Begonia &</div>
+                    <div>Clove Embassy Tech Village,</div>
+                    <div>Outer Ring Road, Devarabeesanahalli Village</div>
+                    <div>  Bengaluru, 560103,</div>
+                    <div>Karnataka, India</div>
+                </div>
+                <div>
+                    <div class="footer-titles">REGISTRED OFFICE ADDRESS</div>
+                    <div>Flipkart Internet Private Limited</div>
+                    <div>Buildings Alyssa, Begonia &</div>
+                    <div>Clove Embassy Tech Village,</div>
+                    <div>Outer Ring Road, Devarabeesanahalli Village</div>
+                    <div>  Bengaluru, 560103,</div>
+                    <div>Karnataka, India</div>
+                    <div> CIN : U51109KA2012PTC066107</div>
+                    <div> Telephone: +91 044-45614700</div>
+                </div>
+
+            </div>
+
+        </footer>
+        
+        
+    </body>
+</html>

@@ -1,0 +1,19 @@
+$shadow : 2px 2px 2px green;
+$border : 2px solid blue;
+$padding : 20px;
+
+@mixin LayoutEffects
+{
+    border: $border;
+    box-shadow: $shadow;
+    padding: $padding;
+}
+.container{
+    @include LayoutEffects;
+
+}
+h2{
+    @include LayoutEffects;
+    color: violet;
+}
+

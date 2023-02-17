@@ -1,0 +1,27 @@
+$size:400px;
+$shadow:3px 3px 4px blue;
+$border:2px soild red;
+$padding:20px;
+$family: verdana;
+
+.container{
+    box-shadow: $shadow;
+    font-family: $family;
+    padding: $padding;
+    border: $border;
+    
+    p{
+        text-shadow: $shadow;
+        font-size: $size;
+        padding: $padding;
+        border: $border;
+    }
+    h2{
+        color: red;
+        text-shadow: $shadow;
+        font-size: $size;
+        padding: $padding;
+        border: $border;
+    }
+}
+

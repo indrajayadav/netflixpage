@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-in">
+    <head>
+        <title> Netflix </title>
+        <link href="./favicon.ico" rel="shortcut icon">
+        <link href="../node_modules/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+        <link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
+    
+        <style>
+            body {
+                background-size: cover;
+
+            }
+            .bg-shade{
+                background-color: rgba(0,0,0,0.6);
+                color: wheat;
+                height: 900px;
+                margin-top: -150px;
+                margin-left: -10px;
+                margin-right: -10px;
+                margin-bottom: -500px;
+                
+            }
+            section {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 500px;
+                color: white;
+                padding-top: 280px;
+            }
+            main
+            {
+                text-align: center;
+                font-family: arial;
+            }
+            .title{
+                font-size: 50px;
+                font-weight: bold;
+                width: 700px;
+            }
+            .sub-title {
+                font-size: 30px;
+                font-weight: bold;
+                width: 700px;
+                margin-top: 20px;
+            }
+            .text {
+                 margin-top: 20px;
+            }
+            .button{
+                text-align: right;
+                color: white;
+                font-size: 30px;    
+                padding: 35px;
+                padding-right: 300px;
+                
+            }
+            h1{
+                color: red;
+                font-size: 80px;
+            }
+            .top{
+                display: grid;
+                grid-template-columns: 6fr 3fr 3fr;
+            }
+            .list{
+                color: white;
+                padding-top: 45px;
+                padding-left: 250px;
+                
+                
+                
+                
+            }
+            
+    
+
+        </style>
+    </head>
+    <body background="public/image.jpg/background.jpg">
+        
+        <div class="top">
+            <span>
+                <h1> <b>NETFLIX</b></h1>
+            </span>
+            <span class="list bi bi-globe input-group-sm ">
+                <select >
+                    <option>English</option>
+                    <option>English</option>
+                    <option>తెలుగు</option>
+                    <option>हिंदी</option>
+                </select>
+            </span>
+            <span class="button">
+            <button class="btn btn-danger">SignIn</button>
+            </span>
+        </div>
+        <div class="bg-shade">
+            <section>
+                <main>
+                    <div class="title">Unlimited movies, TV shows and more.</div>
+                    <div class="sub-title"> Watch anywhere. Cancel anytime.</div>
+                    <div class="text">Ready to watch? Enter your email to create or restart your membership.</div>
+                    <div class="new  input-group input-group-lg w-100 p-4">
+                        <input type="email" placeholder="your email" class="form-control">
+                        <button class="btn btn-danger">
+                            Get Started <span class="bi bi-chevron-right"></span>
+                        </button>
+                    </div>
+                </main>
+            </section>
+            
+        </div>
+    </body>
+</html>

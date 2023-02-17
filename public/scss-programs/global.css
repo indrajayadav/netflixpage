@@ -1,0 +1,21 @@
+.container {
+  box-shadow: 3px 3px 4px blue;
+  font-family: verdana;
+  padding: 20px;
+  border: 2px soild red;
+}
+.container .p {
+  text-shadow: 3px 3px 4px blue;
+  font-size: 400px;
+  padding: 20px;
+  border: 2px soild red;
+}
+.container .h2 {
+  color: red;
+  text-shadow: 3px 3px 4px blue;
+  font-size: 400px;
+  padding: 20px;
+  border: 2px soild red;
+}
+
+/*# sourceMappingURL=global.css.map */
